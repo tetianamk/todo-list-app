@@ -1,0 +1,22 @@
+
+body {
+background-image: url(https://i.ibb.co/dc2zS9N/forest-3622519-1280.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container {
+opacity: 0.8;
+display: flex;
+flex-direction: column;
+max-width: 400px;
+min-width: 200px;
+width: 100%;
+margin: 5vh auto;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+padding: 10px;
+border-radius: 10px;
+background-color: rgb(62 111 96);
+}
+
+

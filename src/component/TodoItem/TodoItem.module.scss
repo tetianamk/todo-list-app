@@ -1,0 +1,23 @@
+ .todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 10px 0;
+  border:none;
+  border-radius: 10px;
+  background-color: rgba(255, 235, 205, 0.551);
+  max-height: 50px;
+  padding-left: 10px;
+ }
+.todoContent {
+color:rgb(41, 41, 32);
+font-size: 20px;
+overflow: hidden;
+}
+
+.btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
