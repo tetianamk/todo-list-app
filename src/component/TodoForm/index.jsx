@@ -5,12 +5,16 @@ import styles from './TodoForm.module.scss';
 
 function TodoForm({create}) {
   const [task, setTask]=useState({title:'',});
+  
 
   const titleOnChange=(e)=>{
     setTask({...task, title: e.target.value});
   }
   const addNewTask = (e)=>{
       e.preventDefault();
+      if(task.title ==='') {
+        return;
+      }
      const newTask= {...task, id:Date.now(),};
      create(newTask);
       setTask({title:'',});
